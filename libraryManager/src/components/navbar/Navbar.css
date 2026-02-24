@@ -1,0 +1,41 @@
+
+
+.nav-container{
+    display: flex;
+
+}
+.nav-left{
+    display:  flex;
+    width: 1500px;
+    height: 80px;
+    align-items: center;
+   background-color: rgb(255, 255, 255); /*  suppose to be white */
+   margin-top: 20px;
+   margin-right:10px;
+    border-radius: 40px;
+}
+
+.logo-image{
+    width: 60px;
+    height: 60px;
+    border-radius: 40%;
+    margin: 5px;
+    padding-right: 15px;
+}
+.notification-image{
+    width: 30px;
+    height: 30px;
+    margin-left: auto;
+    padding: 15px;
+}
+.nav-right{
+    margin-top: 20px;
+    border-radius: 40px;
+    background-color: rgb(255, 255, 255);
+}
+.profile-image{
+    width: 40px;
+    height: 40px;
+    padding-top : 15px;
+    
+}

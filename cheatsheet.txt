@@ -1,0 +1,11 @@
+Quick Cheat Sheet
+Item	- Convention
+Component	- PascalCase
+Component file -	PascalCase
+Variables	- camelCase
+Functions	- 	camelCase
+Event handlers		- handleSomething
+State setter		- setSomething
+Custom hooks	- 	useSomething
+Constants		- UPPER_CASE
+Folders		- lowercase
