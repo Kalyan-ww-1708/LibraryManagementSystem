@@ -1,7 +1,8 @@
 import { Routes, Route, Link } from "react-router-dom";
 import './App.css'
 import Hero from './components/hero/Hero'
-import LoginPage from './components/login/LoginPage'
+import AdminRegister from "./components/Signup/AdminRegister";
+import AdminLogin from "./components/login/AdminLogin";
 import Navbar from './components/navbar/Navbar'
 function App() {
 
@@ -16,7 +17,8 @@ function App() {
       } />
 
       {/* Login Route */}
-      <Route path="/login" element={<LoginPage />} />
+      <Route path="/admin-register" element={<AdminRegister />} />
+      <Route path="/admin-login" element={<AdminLogin />} />
     </Routes>
   )
 }
